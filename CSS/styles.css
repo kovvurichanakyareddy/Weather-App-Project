@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/Day/mesmerizing-view-fresh-green-fields-cloudy-sky.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info_box {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px);
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px 5px 30px 5px;
+}
+
+.topgap {
+    height: 20px;
+    width: 100%;
+}
+
+.citysearch {
+    position: relative;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    span {
+        position: absolute;
+        left: 10px;
+        font-size: 26px;
+    }
+}
+
+.citysearch input {
+    position: absolute;
+    height: 100%;
+    width: 92.7%;
+    border: 0;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    font-weight: bold;
+    padding: 0px 48px 0px 42px;
+    border-radius: 55px;
+}
+.citysearch button {
+    position: absolute;
+    transition: 0.5s;
+    right: 0;
+    width: 40px;
+    border-radius: 55px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 28px;
+    padding: 0px 50px 0px 5px;
+    cursor: pointer;
+}
+.citysearch button:hover {
+    color: grey;
+}
+
+.citysearch button:active {
+    color: black;
+}
+
+.maindetails {
+    height: 300px;
+    /* background-color: aqua; */
+}
+.mcitydet {
+    float: left;
+    width: 55%;
+    padding: 30px;
+    .cityname {
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .callr {
+        font-size: 20px;
+    }
+}
+.micon {
+    float: left;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.micon img {
+    height: 200px;
+}
+.mtempnstatus {
+    float: left;
+    #mtemp {
+        font-size: 72px;
+        font-weight: bolder;
+        margin: 72px 0px 0px 0px;
+    }
+    #mstatus {
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+.middlegap {
+    height: 20px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.nextdetails {
+    height: 32%;
+    font-size: 20px;
+}
+.nextgapp {
+    height: 100%;
+    float: left;
+    width: 2%;
+    /* background-color: aqua; */
+}
+.windd {
+    height: 100%;
+    border-radius: 30px;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    width: 30%;
+    float: left;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.humid {
+    height: 100%;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    width: 30%;
+    float: left;
+
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.visib {
+    height: 100%;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    width: 30%;
+    float: left;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+#materialicons {
+    font-size: 58px;
+    font-weight: bold;
+}
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
